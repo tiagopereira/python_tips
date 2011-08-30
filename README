@@ -1,0 +1,4 @@
+This repository is mostly concerned with python tips and tricks. 
+These are focused on scientific/astronomical uses of Python, with numpy, scipy and matplotlib.
+Most of the content lives on the wiki, with some bits of code in the repository when useful.
+Mainly for my own reference, but hopefully you can find something useful.
