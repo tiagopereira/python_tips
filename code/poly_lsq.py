@@ -39,7 +39,7 @@ def poly_lsq(x,y,n,verbose=False,itmax=200):
         print '(WWW) poly_lsq: Iteration limit reached, result not reliable!'
 
     # Results and errors
-    coeff = fit.beta
-    err   = fit.sd_beta
+    coeff = fit.beta[::-1]
+    err   = fit.sd_beta[::-1]
 
     return coeff,err
