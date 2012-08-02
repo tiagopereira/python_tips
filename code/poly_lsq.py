@@ -42,4 +42,4 @@ def poly_lsq(x,y,n,verbose=False,itmax=200):
     coeff = fit.beta[::-1]
     err   = fit.sd_beta[::-1]
 
-    return coeff,err
+    return coeff, err
