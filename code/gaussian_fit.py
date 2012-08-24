@@ -16,7 +16,6 @@ def gauss_lsq(x,y,verbose=False,itmax=200,iparams=[]):
         # Analytical derivative of gaussian with respect to x
         return 2*(x-B[0])*gaussian(B,x)
 
-    # these derivatives need to be fixed!
     def _gauss_fjb(B,x):
         # Analytical derivatives of gaussian with respect to parameters
         _ret = N.concatenate(( -2*(x-B[0])*gaussian(B,x),\
